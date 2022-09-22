@@ -1,0 +1,11 @@
+version=3
+# It is not recommended use fakeupstream. Please investigate more.
+# Origin url: https://github.com/braveg1rl/performance-now
+# Take a look at https://wiki.debian.org/debian/watch/
+# See also fakeupstream: http://anonscm.debian.org/viewvc/qa/trunk/cgi-bin/fakeupstream.cgi?view=markup
+opts=\
+repacksuffix=+debian,\
+repack,compression=xz,\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*=// \
+ http://qa.debian.org/cgi-bin/fakeupstream.cgi?upstream=npmjs/performance-now .*=performance-now-(\d.*)\.(?:tgz|tar\.(?:gz|bz2|xz))

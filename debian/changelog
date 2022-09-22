@@ -1,0 +1,12 @@
+node-performance-now (2.1.0+debian-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Sun, 27 Dec 2020 19:01:38 +0100
+
+node-performance-now (2.1.0+debian-1) unstable; urgency=low
+
+  * Initial release (Closes: #862427)
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 12 May 2017 21:12:01 +0530
