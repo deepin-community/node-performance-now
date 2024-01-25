@@ -1,9 +1,44 @@
-node-performance-now (2.1.0+debian-1.1) unstable; urgency=medium
+node-performance-now (2.1.0+debian-4) unstable; urgency=medium
 
-  * Non maintainer upload by the Reproducible Builds team.
-  * No source change upload to rebuild on buildd with .buildinfo files.
+  * Team upload
+  * Disable one short-time based test (Closes: #1009573)
 
- -- Holger Levsen <holger@debian.org>  Sun, 27 Dec 2020 19:01:38 +0100
+ -- Yadd <yadd@debian.org>  Wed, 13 Apr 2022 12:43:19 +0200
+
+node-performance-now (2.1.0+debian-3) unstable; urgency=medium
+
+  * Team upload
+  * Increase test timeout
+
+ -- Yadd <yadd@debian.org>  Tue, 18 Jan 2022 06:23:43 +0100
+
+node-performance-now (2.1.0+debian-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-performance-now: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Bump debhelper from old 12 to 13.
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Drop dependency to nodejs
+  * Use dh-sequence-nodejs auto install
+  * Enable upstream test (mocha)
+
+ -- Yadd <yadd@debian.org>  Mon, 17 Jan 2022 21:53:02 +0100
 
 node-performance-now (2.1.0+debian-1) unstable; urgency=low
 

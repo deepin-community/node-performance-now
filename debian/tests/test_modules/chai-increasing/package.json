@@ -1,0 +1,32 @@
+{
+  "name": "chai-increasing",
+  "version": "1.2.0",
+  "description": "Chai matchers for increasing/decreasing sequences",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test 'test/**/*.spec.js'"
+  },
+  "author": "James Lawson",
+  "license": "MIT",
+  "keywords": [
+    "chai",
+    "chai-plugin"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "immutable": "^3.8.1",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "lodash.identity": "^3.0.0"
+  },
+  "homepage": "https://github.com/jameslawson/chai-increasing#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameslawson/chai-increasing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jameslawson/chai-increasing/issues"
+  }
+}

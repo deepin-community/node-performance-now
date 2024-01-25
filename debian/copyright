@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: performance-now
 Upstream-Contact: https://github.com/braveg1rl/performance-now/issues
 Source: https://github.com/braveg1rl/performance-now
@@ -10,6 +10,15 @@ License: Expat
 
 Files: debian/*
 Copyright: 2017 Pirate Praveen <praveen@debian.org>
+ 2022 Yadd <yadd@debian.org>
+License: Expat
+
+Files: debian/tests/test_modules/call-delayed/*
+Copyright: 2017 Braveg1rl
+License: Expat
+
+Files: debian/tests/test_modules/chai-increasing/*
+Copyright: 2016 James Lawson
 License: Expat
 
 License: Expat
@@ -32,4 +41,3 @@ License: Expat
  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
