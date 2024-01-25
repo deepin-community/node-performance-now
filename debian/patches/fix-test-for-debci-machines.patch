@@ -1,0 +1,18 @@
+Description: test succeeds locally but may fail on debci machines
+Author: Yadd <yadd@debian.org>
+Bug-Debian: https://bugs.debian.org/1009573
+Forwarded: not-needed
+Last-Update: 2022-04-13
+
+--- a/test/scripts.coffee
++++ b/test/scripts.coffee
+@@ -19,9 +19,3 @@
+   it "printed #{result}", ->
+   it "printed a value above 340", -> assert.isAbove result, 340
+   it "printed a value below 600", -> assert.isBelow result, 600
+-
+-describe "scripts/difference.coffee", ->
+-  result = parseFloat exec("./test/scripts/difference.coffee").toString().trim()
+-  it "printed #{result}", ->
+-  it "printed a value above 0.002", -> assert.isAbove result, 0.002
+-  it "printed a value below 0.07", -> assert.isBelow result, 0.07
